@@ -1,4 +1,4 @@
-package com.akanksha.library.exception;
+package com.yogeshwari.library.exception;
 
 public class InvalidInputException {
 
