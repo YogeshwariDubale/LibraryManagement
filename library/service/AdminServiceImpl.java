@@ -1,8 +1,8 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 
-import com.akanksha.library.dao.AdminDao;
-import com.akanksha.library.dao.AdminDaoImpl;
-import com.akanksha.library.entity.Admin;
+import com.yogeshwari.library.dao.AdminDao;
+import com.yogeshwari.library.dao.AdminDaoImpl;
+import com.yogeshwari.library.entity.Admin;
 
 public class AdminServiceImpl implements AdminService{
 	private static AdminDao adminDao=new AdminDaoImpl();
