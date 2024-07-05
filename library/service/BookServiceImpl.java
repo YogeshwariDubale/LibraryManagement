@@ -1,9 +1,9 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 import java.util.List;
 
-import com.akanksha.library.dao.BookDao;
-import com.akanksha.library.dao.BookDaoImpl;
-import com.akanksha.library.entity.Book;
+import com.yogeshwari.library.dao.BookDao;
+import com.yogeshwari.library.dao.BookDaoImpl;
+import com.yogeshwari.library.entity.Book;
 
 public class BookServiceImpl implements BookService{
 	BookDao bookDao=new BookDaoImpl();
@@ -41,7 +41,5 @@ public class BookServiceImpl implements BookService{
 	@Override
 	public List<Book> getBookByAuthor(String authorName) {
 		return bookDao.getBookByAuthor(authorName);
-	}
-
-	
+	}	
 }
