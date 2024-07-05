@@ -1,12 +1,12 @@
-package com.akanksha.library.presentation;
+package com.yogeshwari.library.presentation;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import com.akanksha.library.entity.Admin;
-import com.akanksha.library.service.AdminService;
-import com.akanksha.library.service.AdminServiceImpl;
-import com.akanksha.library.validation.Validation;
+import com.yogeshwari.library.entity.Admin;
+import com.yogeshwari.library.service.AdminService;
+import com.yogeshwari.library.service.AdminServiceImpl;
+import com.yogeshwari.library.validation.Validation;
 
 public class AdminUserImpl implements AdminUser {
 	private Scanner scanner = new Scanner(System.in);
