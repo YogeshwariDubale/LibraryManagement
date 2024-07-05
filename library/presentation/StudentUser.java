@@ -6,6 +6,6 @@ public interface StudentUser {
 	boolean inputStudentLogin();
 	void bookIssue();
 	void getAllStudent();
-    void getStudentByName();
+        void getStudentByName();
 
 }
