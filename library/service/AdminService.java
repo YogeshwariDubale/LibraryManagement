@@ -1,6 +1,6 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 
-import com.akanksha.library.entity.Admin;
+import com.yogeshwari.library.entity.Admin;
 
 public interface AdminService {
 	String registerAdmin(Admin admin);
