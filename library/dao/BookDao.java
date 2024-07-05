@@ -1,7 +1,7 @@
-package com.akanksha.library.dao;
+package com.yogeshwari.library.dao;
 import java.util.List;
 
-import com.akanksha.library.entity.Book;
+import com.yogeshwari.library.entity.Book;
 
 public interface BookDao {
 	String addBook(Book book);
