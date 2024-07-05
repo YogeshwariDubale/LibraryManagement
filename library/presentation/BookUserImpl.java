@@ -1,12 +1,12 @@
-package com.akanksha.library.presentation;
+package com.yogeshwari.library.presentation;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import com.akanksha.library.entity.Book;
-import com.akanksha.library.service.BookService;
-import com.akanksha.library.service.BookServiceImpl;
+import com.yogeshwari.library.entity.Book;
+import com.yogeshwari.library.service.BookService;
+import com.yogeshwari.library.service.BookServiceImpl;
 
 public class BookUserImpl implements BookUser {
 	private Scanner scanner = new Scanner(System.in);
