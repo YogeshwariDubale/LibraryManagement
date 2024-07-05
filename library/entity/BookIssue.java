@@ -1,7 +1,5 @@
-package com.akanksha.library.entity;
-
+package com.yogeshwari.library.entity;
 import java.time.LocalDate;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
