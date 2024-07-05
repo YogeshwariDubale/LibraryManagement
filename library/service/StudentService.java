@@ -1,7 +1,7 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 import java.util.List;
 
-import com.akanksha.library.entity.Student;
+import com.yogeshwari.library.entity.Student;
 
 public interface StudentService {
 	String registerStudent(Student student);
