@@ -1,4 +1,4 @@
-package com.akanksha.library.dao;
+package com.yogeshwari.library.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Query;
 
-import com.akanksha.library.entity.Student;
+import com.yogeshwari.library.entity.Student;
 
 public class StudentDaoImpl implements StudentDao {
 	EntityManager entityManager = MyConnection.getEntityManagerObject();
