@@ -1,13 +1,13 @@
-package com.akanksha.library.presentation;
+package com.yogeshwari.library.presentation;
 import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import com.akanksha.library.entity.Student;
-import com.akanksha.library.service.StudentService;
-import com.akanksha.library.service.StudentServiceImpl;
-import com.akanksha.library.validation.Validation;
+import com.yogeshwari.library.entity.Student;
+import com.yogeshwari.library.service.StudentService;
+import com.yogeshwari.library.service.StudentServiceImpl;
+import com.yogeshwari.library.validation.Validation;
 
 public class StudentUserImpl implements StudentUser{
 	private Scanner scanner=new Scanner(System.in);
@@ -18,7 +18,7 @@ public class StudentUserImpl implements StudentUser{
 
 	@Override
 	public void registerStudent() {
-		boolean flagStudentName = true;
+	    boolean flagStudentName = true;
 	    boolean flagStudentPassword = true;
 	    boolean flagStudentEmailId = true;
 	    boolean flagStudentContactNo = true;
@@ -174,6 +174,6 @@ public class StudentUserImpl implements StudentUser{
         		System.out.println(s.getStudentId()+"\t   "+s.getStudentName()+"\t      "+s.getStudentEmail()+"\t   "+s.getStudentContactNo()+"\t         "+s.getStudentAddress());
  	    }
         }
-	}
+    }
 	
 }
