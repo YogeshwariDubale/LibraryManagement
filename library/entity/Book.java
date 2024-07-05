@@ -1,4 +1,4 @@
-package com.akanksha.library.entity;
+package com.yogeshwari.library.entity;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -86,9 +86,4 @@ public class Book {
 	public void setAdmin(Admin admin) {
 		this.admin = admin;
 	}
-
-	
-	
-	
-
 }
