@@ -1,4 +1,4 @@
-package com.akanksha.library.dao;
+package com.yogeshwari.library.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Query;
 
-import com.akanksha.library.entity.BookIssue;
+import com.yogeshwari.library.entity.BookIssue;
 
 public class BookIssueDaoImpl implements BookIssueDao {
 	EntityManager entityManager = MyConnection.getEntityManagerObject();
