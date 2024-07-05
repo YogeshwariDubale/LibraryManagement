@@ -1,10 +1,10 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 
 import java.util.List;
 
-import com.akanksha.library.dao.BookIssueDao;
-import com.akanksha.library.dao.BookIssueDaoImpl;
-import com.akanksha.library.entity.BookIssue;
+import com.yogeshwari.library.dao.BookIssueDao;
+import com.yogeshwari.library.dao.BookIssueDaoImpl;
+import com.yogeshwari.library.entity.BookIssue;
 
 public class BookIssueServiceImpl implements BookIssueService{
 	private BookIssueDao bookIssueDao=new BookIssueDaoImpl();
@@ -63,5 +63,4 @@ public class BookIssueServiceImpl implements BookIssueService{
 	public double calculateFine(long daysOverdue) {
 		return bookIssueDao.calculateFine(daysOverdue);
 	}
-
 }
