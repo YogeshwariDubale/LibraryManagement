@@ -1,9 +1,9 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 import java.util.List;
 
-import com.akanksha.library.dao.StudentDao;
-import com.akanksha.library.dao.StudentDaoImpl;
-import com.akanksha.library.entity.Student;
+import com.yogeshwari.library.dao.StudentDao;
+import com.yogeshwari.library.dao.StudentDaoImpl;
+import com.yogeshwari.library.entity.Student;
 
 public class StudentServiceImpl implements StudentService{
 	private static StudentDao studentDao=new StudentDaoImpl();
