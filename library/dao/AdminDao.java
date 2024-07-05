@@ -1,5 +1,5 @@
-package com.akanksha.library.dao;
-import com.akanksha.library.entity.Admin;
+package com.yogeshwari.library.dao;
+import com.yogeshwari.library.entity.Admin;
 
 
 public interface AdminDao {
