@@ -1,10 +1,10 @@
-package com.akanksha.library.dao;
+package com.yogeshwari.library.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Query;
 
-import com.akanksha.library.entity.Admin;
+import com.yogeshwari.library.entity.Admin;
 
 public class AdminDaoImpl implements AdminDao {
 	EntityManager entityManager = MyConnection.getEntityManagerObject();
