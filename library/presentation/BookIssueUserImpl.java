@@ -1,4 +1,4 @@
-package com.akanksha.library.presentation;
+package com.yogeshwari.library.presentation;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.InputMismatchException;
@@ -6,15 +6,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import com.akanksha.library.entity.Book;
-import com.akanksha.library.entity.BookIssue;
-import com.akanksha.library.entity.Student;
-import com.akanksha.library.service.BookIssueService;
-import com.akanksha.library.service.BookIssueServiceImpl;
-import com.akanksha.library.service.BookService;
-import com.akanksha.library.service.BookServiceImpl;
-import com.akanksha.library.service.StudentService;
-import com.akanksha.library.service.StudentServiceImpl;
+import com.yogeshwari.library.entity.Book;
+import com.yogeshwari.library.entity.BookIssue;
+import com.yogeshwari.library.entity.Student;
+import com.yogeshwari.library.service.BookIssueService;
+import com.yogeshwari.library.service.BookIssueServiceImpl;
+import com.yogeshwari.library.service.BookService;
+import com.yogeshwari.library.service.BookServiceImpl;
+import com.yogeshwari.library.service.StudentService;
+import com.yogeshwari.library.service.StudentServiceImpl;
 
 public class BookIssueUserImpl implements BookIssueUser {
 	private Scanner scanner = new Scanner(System.in);
