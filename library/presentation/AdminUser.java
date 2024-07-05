@@ -1,4 +1,4 @@
-package com.akanksha.library.presentation;
+package com.yogeshwari.library.presentation;
 
 public interface AdminUser {
 	void registerAdmin();
