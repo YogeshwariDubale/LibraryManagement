@@ -8,6 +8,6 @@ public interface StudentService {
 	Student getStudentById(Integer studentId);
 	boolean studentLogin(Integer studentId, String studentPassword);
 	List<Student> getAllStudent();
-    List<Student> getStudentByName(String studentName);
+        List<Student> getStudentByName(String studentName);
 
 }
