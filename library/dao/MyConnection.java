@@ -1,4 +1,4 @@
-package com.akanksha.library.dao;
+package com.yogeshwari.library.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -12,7 +12,7 @@ public class MyConnection {
 	
 	public static EntityManager getEntityManagerObject() {
 		if(entityManager==null) {
-			entityManagerFactory=Persistence.createEntityManagerFactory("Akanksha");
+			entityManagerFactory=Persistence.createEntityManagerFactory("Yogeshwari");
 			entityManager=entityManagerFactory.createEntityManager();
 		}
 		return entityManager;
