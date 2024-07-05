@@ -1,4 +1,4 @@
-package com.akanksha.library.entity;
+package com.yogeshwari.library.entity;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -82,9 +82,5 @@ public class Student {
 
 	public void setBookIssues(List<BookIssue> bookIssues) {
 		this.bookIssues = bookIssues;
-	}
-
-	
-	
-	
+	}	
 }
