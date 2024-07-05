@@ -15,7 +15,7 @@ public class AdminUserImpl implements AdminUser {
 
 	@Override
 	public void registerAdmin() {
-		 boolean flagAdminName = true;
+		    boolean flagAdminName = true;
 		    boolean flagAdminPassword = true;
 		    boolean flagAdminEmailId = true;
 		    boolean flagAdminContactNo = true;
@@ -128,5 +128,5 @@ public class AdminUserImpl implements AdminUser {
 	        e.printStackTrace(); // print the stack trace for debugging purposes
 	    }
 	    return false;
-}
+    }
 }
