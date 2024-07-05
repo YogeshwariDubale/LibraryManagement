@@ -1,8 +1,8 @@
-package com.akanksha.library.service;
+package com.yogeshwari.library.service;
 
 import java.util.List;
 
-import com.akanksha.library.entity.BookIssue;
+import com.yogeshwari.library.entity.BookIssue;
 
 public interface BookIssueService {
 	public String issueBook(BookIssue bookIssue);
